@@ -23,6 +23,6 @@ wind_direction = parsed_json['report']['wind_direction']
 
 atmo_opacity = parsed_json['report']['atmo_opacity']
 
-print "Terrestial Date: %s, Max Temp: %s, Min temp is: %s, Pressure: %s, Pressure Trend: %s, Wind Speed: %s, Wind Direction: %s, Atomospheric Opacity: %s" % (terra_date, min_temp, max_temp, pressure, pressure_trend, wind_speed, wind_direction, atmo_opacity)
+print "Terrestial Date: %s, Min Temp: %s, Max temp is: %s, Pressure: %s, Pressure Trend: %s, Wind Speed: %s, Wind Direction: %s, Atomospheric Opacity: %s" % (terra_date, min_temp, max_temp, pressure, pressure_trend, wind_speed, wind_direction, atmo_opacity)
 
 f.close()
